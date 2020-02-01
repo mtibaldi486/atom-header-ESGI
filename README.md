@@ -1,4 +1,4 @@
-# header-42 package
+# header-ESGI package
 
 An atom package to add the ESGI header to your files.
 
