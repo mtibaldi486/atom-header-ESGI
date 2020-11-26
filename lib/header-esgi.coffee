@@ -46,7 +46,7 @@ module.exports = Headeresgi =
   getHeaderType: (basename) ->
     headers = [
         ['^(Makefile)$',                                    'Makefile.header'],
-        ['^.*\.(sh)$',										'Makefile.header'],
+        ['^.*\.(sh)$',										'sh.header'],
         ['^.*\.(html|ejs)$',                              	'Html.header'],
         ['^.*\.(c|cpp|h|hpp|js|css|cs|scala|rs|go|swift)$', 'C.header'],
         ['^.*\.(php)$',                                     'Php.header'],
